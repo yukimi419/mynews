@@ -8,6 +8,7 @@
                 <div class="login-header card-header mx-auto">{{ __('messages.Login') }}</div>
 
                 <div class="login-body card-body">
+                    <!-- route()はURLを生成したりリダイレクトしたりする -->
                     <form method="POST" action="{{ route('login') }}">
                         @csrf
 
