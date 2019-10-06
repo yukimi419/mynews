@@ -2,6 +2,7 @@
 
 @section('content')
     <div class="container">
+        <p>なぜか画像が表示されないぞ？</p>
         <hr color="#c0c0c0">
         @if (!is_null($headline))
             <div class="row">
